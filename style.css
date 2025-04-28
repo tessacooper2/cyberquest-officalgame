@@ -1,0 +1,47 @@
+body {
+font-family: sans-serif;
+}
+
+#game-container {
+width: 800px;
+margin: 20px auto;
+}
+
+#level-display {
+border: 1px solid #ccc;
+padding: 20px;
+}
+
+#input-container {
+margin-top: 10px;
+}
+
+#canvas-container {
+margin-top: 10px; /* Added for spacing between input and canvas */
+}
+
+#gameCanvas {
+border: 1px solid black;
+display: block; /* Important for proper canvas rendering */
+}
+
+.option-button {
+margin: 5px;
+padding: 10px 15px;
+cursor: pointer;
+}
+
+.correct-answer {
+background-color: lightgreen;
+}
+
+.incorrect-answer {
+background-color: lightcoral;
+}
+
+.message-button {
+display: block;
+margin: 5px;
+padding: 10px 15px;
+cursor: pointer;
+}
